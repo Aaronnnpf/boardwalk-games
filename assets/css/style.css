@@ -70,6 +70,13 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game library cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
 /* grid visualisation CSS for testing */
 
 /* .container,
@@ -106,6 +113,7 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+}    
 
 /* XXL devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
@@ -113,3 +121,4 @@ h2 {
     #services .card-body {
         min-height: 195px;
     }
+}    
