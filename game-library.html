@@ -243,10 +243,10 @@
                                      <label for="number" class="form-label">Phone number</label>
                                      <input type="number" class="form-control" id="number">
                                      <label for="email" class="form-label">Email address</label>
-                                     <input type="email" class="form-control" id="email">
+                                     <input type="email" class="form-control" id="email" required>
                                      <!--Select bar-->
                                      <label for="game-select" class="form-label">Select Game</label>
-                                     <select class="form-select col-12 col-lg-4 mb-3" aria-label="Default select game">
+                                     <select class="form-select col-12 col-lg-4 mb-3" aria-label="select game">
                                      <option selected>Select game</option>
                                      <option value="1">Galaxy Pioneers</option>
                                      <option value="2">Mystic Woods</option>
@@ -258,7 +258,10 @@
                                      <option value="3">Cluedo</option>
                                      </select>
                                      <label for="date" class="form-label">Requested date</label>
-                                     <input type="date">
+                                     <input id="date" type="date" class="form-control" name="date">
+                                </div>
+                                <div class="col-12 text-end">
+                                     <button type="button" class="btn btn-outline-primary">Submit</button>
                                 </div>
                             </div>
                         </form>
